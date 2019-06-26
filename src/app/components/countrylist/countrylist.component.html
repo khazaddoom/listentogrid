@@ -1,0 +1,9 @@
+<div class="row">
+    <div class="col-xs-12">
+        <div *ngFor = "let country of countryList; index as in" class="list-group" >
+          <div class="list-group-item" (click) = "onSelect(in)" >
+              {{ country.countryName}}
+          </div>
+        </div>
+    </div>
+</div>

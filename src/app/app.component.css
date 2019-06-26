@@ -1,0 +1,29 @@
+body, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 10vh;
+    background: gray;
+}
+
+aside {
+    background: orange;
+    float: left;
+    width: 30%;
+    height: 80vh;
+}
+
+section {
+    background: darkolivegreen;
+    float: right;
+    width: 60%;
+    height: 80vh;
+}
+
+footer {
+    clear: both;
+    background: lightslategray;
+    height: 10vh;
+}
