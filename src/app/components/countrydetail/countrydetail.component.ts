@@ -8,15 +8,11 @@ import { Country } from 'src/app/models/country.model';
 })
 export class CountrydetailComponent implements OnInit {
 
-  @Input() selectedCountry: Country ;
+  @Input() selectedCountry: Country = null;
 
   constructor() { }
 
   ngOnInit() {
-
-    this.selectedCountry = new Country('test', 999);
-
-    console.log(this.selectedCountry);
 
   }
 

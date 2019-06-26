@@ -1,1 +1,10 @@
-{{ selectedCountry.countryId }}
+<div class="row">
+    <div class="col-xs-12">
+        <h3>{{ selectedCountry.countryName }}</h3>
+        <div class="row">
+            <div class="col-xs-12">
+                <img src="{{ selectedCountry.nationalFlag }}" alt="{{ selectedCountry.countryName }}">
+            </div>
+        </div>
+    </div>
+</div>
