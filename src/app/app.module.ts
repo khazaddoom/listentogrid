@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { CountrylistComponent } from './components/countrylist/countrylist.component';
 import { CountrydetailComponent } from './components/countrydetail/countrydetail.component';
+import { CountryService } from './services/country.service';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,7 @@ import { CountrydetailComponent } from './components/countrydetail/countrydetail
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [CountryService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

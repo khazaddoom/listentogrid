@@ -5,13 +5,15 @@
 <aside>
   <h3>Country List</h3>
   <hr>
-  <app-countrylist (selectedCountryEvent) = "onSelected($event)"></app-countrylist>
+  <!-- <app-countrylist (selectedCountryEvent) = "onSelected($event)"></app-countrylist> -->
+  <app-countrylist></app-countrylist>
 </aside>
 
 <section>
   <h3>Country Details</h3>
   <hr>
-  <app-countrydetail *ngIf = "selectedCountry" [selectedCountry] = "selectedCountry"></app-countrydetail>
+  <!-- <app-countrydetail *ngIf = "selectedCountry" [selectedCountry] = "selectedCountry"></app-countrydetail> -->
+  <app-countrydetail></app-countrydetail>
 </section>
 
 <footer>
